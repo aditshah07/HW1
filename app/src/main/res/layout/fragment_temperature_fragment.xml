@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".temperature_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText android:id="@+id/mytextfield"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="number"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONVERT"
+        android:id="@+id/button"
+        android:layout_gravity="right"
+        android:onClick="display"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView android:id="@+id/mytextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>
